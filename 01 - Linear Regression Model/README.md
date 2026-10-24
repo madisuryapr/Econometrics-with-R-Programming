@@ -16,5 +16,5 @@ prior literature. The formal equations for estimated model can be written as fol
 \ln(\frac{M2^d_t}{P_t}) = \beta_0 + \beta_1\ln RGDP_t + \beta_2 INR_{d,t} + \beta_3 REXR_t + \beta_4 INR_{f,t} + \varepsilon_t
 ```
 
-where `(\frac{M^d_t}{P_t})` denotes real demand for money,
+where $(\frac{M^d_t}{P_t})$ denotes real demand for money,
 
