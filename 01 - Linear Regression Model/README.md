@@ -8,7 +8,7 @@ I performed linear regression to test Cash-in-Advance model for Indonesia's Dema
 prior literature. The formal equations for estimated model can be written as follows:  
 
 ```math
-E = mc^2
+\ln(\frac{M2^d_t}{P_t}) =
 ```
 
 
