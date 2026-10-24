@@ -7,5 +7,6 @@ to ascertain whether the model achieve Best Linear Unbiased Estimator (BLUE) ass
 I performed linear regression to test Cash-in-Advance model for Indonesia's Demand for Money Function based on Narayan (2007) and Narayan, Narayan, and Mishra (2009)
 prior literature. The formal equations for estimated model can be written as follows:  
 $$
-\ln(\frac{M2_t}{P_t}) =
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
 $$
+
