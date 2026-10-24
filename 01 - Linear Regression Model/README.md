@@ -17,7 +17,7 @@ prior literature. The formal equations for estimated model can be written as fol
 ```
 
 where $(\frac{M^d_t}{P_t})$ denotes real demand for money; $RGDP_t$ represents real economic output, proxied by Real Gross Domestic Product (GDP); $INR_{d,t}$ and
-$INR_{f,t}$ are domestic and foreign interest rates, proxied by Bank Indonesia 7-Day Reverse Repo Rate (BI7-DRR) and The Fed Federal Funds Rate (FFR), respectively; $REXR_t$ is real exchange rate of USD/IDR, calculated as $REXR = NEXR * (\frac{CPI_{ID,2015=100}}{CPI_{US,2015=100}}$ where $CPI_{ID,2015=100}$ and $CPI_{US,2015=100}$ denoted as Indonesia and US Consumer Price Index with 2015 as base year; $\beta_0$ and $beta_{1,...,4}$ are constant and variables' elasticities; and $ln$ and $\varepsilon$ present natural logarithm and error of estimation.  
+$INR_{f,t}$ are domestic and foreign interest rates, proxied by Bank Indonesia 7-Day Reverse Repo Rate (BI7-DRR) and The Fed Federal Funds Rate (FFR), respectively; $REXR_t$ is real exchange rate of USD/IDR, calculated as $REXR = NEXR * (\frac{CPI_{ID,2015=100}}{CPI_{US,2015=100}})$ where $CPI_{ID,2015=100}$ and $CPI_{US,2015=100}$ denoted as Indonesia and US Consumer Price Index with 2015 as base year; $\beta_0$ and $beta_{1,...,4}$ are constant and variables' elasticities; and $ln$ and $\varepsilon$ present natural logarithm and error of estimation.  
 
 Bibliography:
 - Narayan, P. K. (2007). Is money targeting an option for Bank Indonesia? *Journal of Asian Economics*, 18, 726-738. [http://dx.doi.org/10.1016/j.asieco.2007.06.002]
