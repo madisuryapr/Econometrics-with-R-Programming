@@ -24,6 +24,7 @@ Based on underlying theoretical foundation of Demand for Money model, there are 
 - Interest rate negatively affect demand for money, since higher interest rate would generate larger opportunity costs for consumers keeping banknotes. Thus $\beta_2 < 0$;
 
 Bibliography:
+- Mishkin, F. S. (2019). *The economics of money, banking, and financial markets (12^th Edition)*. Harlow, United Kingdom: Pearson Education Ltd.
 - Narayan, P. K. (2007). Is money targeting an option for Bank Indonesia? *Journal of Asian Economics*, 18, 726-738. [http://dx.doi.org/10.1016/j.asieco.2007.06.002]
 - Narayan, P. K., Narayan, S., & Mishra, V. (2009). Estimating money demand functions for South Asian countries. *Empirical Economics*, 36, 685-696. [http://dx.doi.org/10.1007/s00181-008-0219-9]
 
