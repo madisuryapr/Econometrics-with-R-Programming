@@ -21,7 +21,7 @@ $INR_{f,t}$ are domestic and foreign interest rates, proxied by Bank Indonesia 7
 
 Based on underlying theoretical foundation of Demand for Money model, there are several conditions potentially emerged from the estimations:
 - Economic output promote increasing effect on demand form money, since higher economic output means higher transactions and needs for money. Hence, $\beta_1 > 0$;
-- Both Domestic and Foreign Interest rates are assumed negatively affect demand for money, since higher interest rate would generate larger opportunity costs for consumers keeping banknotes. Thus $\beta_2 < 0$ and $$\beta_4 < 0$; and
+- Both Domestic and Foreign Interest rates are assumed negatively affect demand for money, since higher interest rate would generate larger opportunity costs for consumers keeping banknotes. Thus $\beta_2 < 0$ and $\beta_4 < 0$; and
 - Real Exchange Rate is considered promoting negative elasticity towards demand for money, since depreciation of exchange rate makes it less interesting to hold domestic currency. Consumers would therefore prefer holding foreign currency. In accordance with this opinion, thereby $\beta_3 < 0$.
 
 Bibliography:
