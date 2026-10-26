@@ -11,11 +11,12 @@ This repository covers following econometric estimations:
 - Linear Regression Model with Long Time Series Dataset
 - Panel Data Regression Model (encompasses Common, Fixed, and Random Effect Models)
 - Vector Autoregression (VAR) Model
+- Structural VAR (SVAR) Model
 - Vector Error Correction Model (VECM) estimation
 - Unit Root Tests
 - Cointegration Tests
 - Cointegrated Regression
-- Autoregressive Distributed Lag (ARDL) model
+- Autoregressive Distributed Lag (ARDL) Model
 - Dynamic Panel Data Model (namely Generalized Methods of Moments or GMM)
 
 Additionally, all estimations are intended for portfolios only, hence cannot be used for formal research purpose. Please refer to all cited bibliography for further information of all models.  
