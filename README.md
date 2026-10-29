@@ -15,7 +15,7 @@ This repository covers following econometric estimations:
 - Vector Error Correction Model (VECM) estimation
 - Unit Root Tests
 - Cointegration Tests
-- Cointegrated Regression
+- Cointegrating Regression (Including FMOLS and Dynamic OLS)
 - Autoregressive Distributed Lag (ARDL) Model
 - Dynamic Panel Data Model (namely Generalized Methods of Moments or GMM)
 
