@@ -12,6 +12,6 @@ of inflation expectation. Hence, the model representation can be expressed as fo
 ```math
 \pi_t = \gamma_f \mathbb{E}_t[\pi_{t+1}] + \kappa mc_t + u_t
 ```
-where $\pi_t$ denotes inflation rate of an economy; $ \mathbb{E}_t[\pi_{t+1}] $ examines forward-looking inflation expectations for the next one-period of month/quarter; $mc_t$
+where $\pi_t$ denotes inflation rate of an economy; $E_t[\pi_{t+1}]$ examines forward-looking inflation expectations for the next one-period of month/quarter; $mc_t$
 is marginal costs of an economy; $u_t$ represents error term or external factors; and $\gamma_f$ and $\kappa$ denoted as elasticities for both inflation expectation and
 marginal costs, respectively. 
