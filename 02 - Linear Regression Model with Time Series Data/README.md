@@ -22,4 +22,8 @@ Gali and Gertler (1999) introduced the modification of above model, namely Hybri
 ```math
 \pi_t = \gamma_b \pi_{t-1} + \gamma_f \mathbb{E}_t[\pi_{t+1}] + \lambda mc_t + u_t
 ```
-This equation further expands the NKPC model, suggesting that inflation within an economy is examined by firms "rule-of-thumb" backward-looking of past inflation data, forward-looking inflation expectations, alongside the marginal costs. 
+This equation further expands the NKPC model, suggesting that inflation within an economy is examined by firms "rule-of-thumb" backward-looking of past inflation data, forward-looking inflation expectations, alongside the marginal costs. Furthermore, several prior studies incorporate more than one-period on both lag and lead, offering longer backward-looking of inflation past behavior, as well as forward-looking inflation expectations. The representation of this phenomenon can be expressed as follows:  
+
+```math
+\pi_t = \sum_{i = t-k}^{k}\gamma_b \pi_{t-k} + \sum_{i = t+k}^{k}\gamma_f \mathbb{E}_t[\pi_{t+k}] + lambda mc_t + u_t
+```
