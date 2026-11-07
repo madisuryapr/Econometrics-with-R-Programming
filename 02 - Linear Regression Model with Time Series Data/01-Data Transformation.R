@@ -83,9 +83,13 @@ q_combined <- q_combined %>%
     -date.y           # remove duplicated date column
   ) %>%
   mutate(
-    lnRGDP = log(RGDP), # natural logarithm of Indonesia's Real Gross Domestic Product (GDP)
-    lnWTI = log(WTI),   # natural logarithm of West Texas Intermediate (WTI) Oil Prices
-    lnEXR = log(EXR)    # natural logarithm of USD/IDR nominal exchange rate
+    lnRGDP    = log(RGDP),   # natural logarithm of Indonesia's Real Gross Domestic Product (GDP)
+    lnWTI     = log(WTI),    # natural logarithm of West Texas Intermediate (WTI) Oil Prices
+    lnEXR     = log(EXR),    # natural logarithm of USD/IDR nominal exchange rate
+    INF_lag1  = lag(INF, n = 1L), # one-quarter lag of inflation rate
+    INF_lag2  = lag(INF, n = 2L), # two-quarter lag of inflation rate
+    INF_lead1 = lead(INF, n = 1L), # one-quarter lead of inflation rate
+    INF_lead2 = lead(INF, n = 2L)  # two-quarter lead of inflation rate
   )
 
 ## Perform output gap calculation
@@ -99,7 +103,9 @@ q_combined <- q_combined %>%
 cleansed_data <- q_combined %>%
   select(
     date, quarterly_date,
-    INF, lnRGDP, lnEXR, INR,
+    INF, INF_lag1, INF_lag2,
+    INF_lead1, INF_lead2,
+    lnRGDP, lnEXR, INR,
     lnWTI, pot_rgdp, output_gap  
   )
 
