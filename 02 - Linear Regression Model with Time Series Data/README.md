@@ -10,5 +10,5 @@ and took various endeavors to develop this model further, such as NKPC function.
 of inflation expectation. Hence, the model representation can be expressed as follows:  
 
 ```math
-\pi_t = \gamma_f \mathbb{E}_t[\pi_{t+1}] + \kappa mc_t + u_t
+\pi_t = \gamma_f \mathbb{E}_t[\pi_{t+1}] + \kappa mc_t + u_t (1)
 ```
