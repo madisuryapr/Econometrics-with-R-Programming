@@ -4,7 +4,7 @@
 
 > **Employing R Programming Language for Estimating Econometric Models in the Fields of Economics, Financial Economics, and Banking & Finance**
 
-In this repository, Authors wanted to present various econometric model estimations using R programming language. Economics, Financial Economics, Banking & Finance are three main domain knowledge for all datasets utilized within this repository. Most of the estimations would utilize time series data, but it does not mean that panel data would not be employed.  
+In this repository, I wanted to present various econometric model estimations using R programming language. Economics, Financial Economics, Banking & Finance are three main domain knowledges within this repository. Most of the estimations will utilize time series datasets, but it does not mean that panel datasets will not be employed.  
 
 This repository covers following econometric estimations:
 - Linear Regression Model (including single and multiple independent variables)
@@ -15,10 +15,9 @@ This repository covers following econometric estimations:
 - Vector Error Correction Model (VECM) estimation
 - Unit Root Tests
 - Cointegration Tests
-- Cointegrating Regression (Including FMOLS and Dynamic OLS)
+- Cointegrating Regression (namely FM-OLS and Dynamic OLS)
 - Autoregressive Distributed Lag (ARDL) Model
 - Dynamic Panel Data Model (namely Generalized Methods of Moments or GMM)
 
-Additionally, all estimations are intended for portfolios only, hence cannot be used for formal research purpose. Please refer to all cited bibliography for further information of all models.  
-
-
+Note:  
+All estimations within this repository are intended for portfolio only, hence cannot be used for formal research purpose. Please refer to the cited bibliography for further information regarding all incorporated models.
