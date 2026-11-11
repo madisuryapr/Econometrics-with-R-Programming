@@ -34,3 +34,10 @@ In addition, prior studies incorporate international variables, including import
 \pi_t = \alpha + \beta_1^b \pi_{t-1} + \beta_2^b \pi_{t-2} + \theta_1^f \mathbb{E_t}[\pi_{t+1}] + \theta_2^f \mathbb{E_t}[\pi_{t+2}] + \gamma_1 R_t + \gamma_2 Y_t^{*} + \gamma_3 WTI_t + \gamma_4 EXR_t + \varepsilon_t
 ```
 This project's model considers that Indonesia's inflation is influenced by two-quarter of backward-looking inflation inertia and forward-looking inflation expectation, monetary policy interest rate, output gap, alongside a set of variables within which reflect external factors, namely oil prices and exchange. We use quarterly data, covering 2000-Q1 until 2026-Q2 period of time. Moreover, due to leads and lags effect, this project will only utilize 2000-Q3 until 2025-Q4 as the final data range for estimation. It does not incorporate import price index due to the unavailability of data that includes all period of time.
+
+Bibliography:
+- Gali, J., & Gertler, M. (1999). Inflation dynamics: A structural econometric analysis. _Journal of Monetary Economics_, 44(2), 195-222.
+- Horstein, A. (2008). Introduction to the New Keynesian Phillips Curve. _Economic Quarterly_, 94(4), 301-309.
+- Narayan, P. K., Narayan, S., Rahman, R. E., & Setiawan, I. (2019). Bitcoin price growth and Indonesia's monetary system. _Emerging Markets Review_, 38(2019), 364-376.
+- Sahu, J. P. (2014). Inflation dynamics in India: A hybrid New Keynesian Phillips Curve approach. _Economics Bulletin_, 33(4), 2634-2647.
+
