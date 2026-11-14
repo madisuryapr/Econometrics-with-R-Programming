@@ -13,7 +13,7 @@ library(dplyr)
 library(modelsummary)
 
 # Load cleansed data
-hnkpc <- read_excel("Cleansed Quarterly Data.xlsx", sheet = "Sheet1")
+hnkpc <- read_excel("Clean Data/Cleansed Quarterly Data.xlsx", sheet = "Sheet1")
 
 # View data structure
 str(hnkpc)
@@ -22,7 +22,7 @@ str(hnkpc)
 hnkpc <- hnkpc %>%
   mutate(
     date = as.Date(date),
-    quarterly_date = as.yearqtr(quarterly_date),
+    quarterly_date = as.yearqtr(quarterly_date)
   ) %>%
   rename(
     econgap = output_gap
@@ -95,13 +95,14 @@ descriptive_stat <- hnkpc %>%
 descriptive_stat
 
 # Perform linear regression model with quarterly time series data
+# for full sample (2000 Q3 - 2025 Q4)
 hnkpc_estimation <- lm(
   formula = INF ~ INF_lag1 + INF_lag2 + INF_lead1 + INF_lead2
     + INR + econgap + lnEXR + lnWTI,
   data = hnkpc,
   na.action = na.omit
 )
-summary(hnkpc_estimation)
+summary(hnkpc_estimation) # preview the estimation result
 
 # Split the data and estimate the pre-pandemic era of Hybrid NKPC model
 pre_pandemic_hnkpc <- hnkpc %>%
@@ -116,9 +117,9 @@ pre_hnkpc_estimation <- lm(
   data = pre_pandemic_hnkpc,
   na.action = na.omit
 )
-summary(pre_hnkpc_estimation)
+summary(pre_hnkpc_estimation) # preview the pre-pandemic result
 
-# Create comparison table using modelsummary function()
+# Create comparison table using modelsummary() function
 model_performance <- list(
   "Full Sample<br>(2000 Q3 - 2025 Q4)" = hnkpc_estimation,
   "Pre-Pandemic Sample<br>(2000 Q3 - 2019 Q4)" = pre_hnkpc_estimation
@@ -126,8 +127,13 @@ model_performance <- list(
 
 modelsummary(
   model_performance,
-  title = "<b>Hybrid New Keynesian Phillips Curve (NKPC) Estimations for Indonesian Economy</b>",
-  stars = TRUE,
+  title = "<div style='text-align: center;'>
+    <b>Hybrid New Keynesian Phillips Curve (NKPC) Estimations for Indonesian Economy</b></div>",
+  stars = c(
+    '*'   = 0.1,
+    '**'  = 0.05,
+    '***' = 0.01
+  ),
   coef_rename = c(
     "INF_lag1"  = "&pi;<sub>t-1</sub> (inflation, lag 1)",
     "INF_lag2"  = "&pi;<sub>t-2</sub> (inflation, lag 2)",
@@ -139,8 +145,7 @@ modelsummary(
     "lnWTI"     = "WTI oil prices"
   ),
   estimate = c(
-    "{estimate}{stars}[{p.value}]",
-    "{estimate}{stars}[{p.value}]"
+    "{estimate}{stars} [{p.value}]"
   ),
   notes = list(
     "***, **, and * denote significance at 1%, 5%, and 10% values, respectively.",

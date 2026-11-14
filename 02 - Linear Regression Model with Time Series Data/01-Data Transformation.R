@@ -111,4 +111,4 @@ cleansed_data <- q_combined %>%
 
 
 ## Write cleansed data into .xlsx file format
-write_xlsx(cleansed_data, "Cleansed Quarterly Data.xlsx")
+write_xlsx(cleansed_data, "Clean Data/Cleansed Quarterly Data.xlsx")
