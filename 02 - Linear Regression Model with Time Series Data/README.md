@@ -35,7 +35,9 @@ In addition, prior studies incorporate international variables, including import
 ```
 This project's model considers that Indonesia's inflation is influenced by two-quarter of backward-looking inflation inertia and forward-looking inflation expectation, monetary policy interest rate, output gap, alongside a set of variables within which reflect external factors, namely oil prices and exchange. We use quarterly data, covering 2000-Q1 until 2026-Q2 period of time. Moreover, due to leads and lags effect, this project will only utilize 2000-Q3 until 2025-Q4 as the final data range for estimation. It does not incorporate import price index due to the unavailability of data that includes all period of time.  
 
-The estimation will be executed by comparing both full sample estimation (2000 Q3 until 2025 Q4) and pre-pandemic (2000 Q3 - 2019 Q4) to assess whether any difference exists between two different sets of data that reflects before and after COVID-19 Pandemic Eruption.
+The estimation will be executed by comparing both full sample estimation (2000 Q3 until 2025 Q4) and pre-pandemic (2000 Q3 - 2019 Q4) to assess whether any difference exists between two different sets of data that reflects before and after COVID-19 Pandemic Eruption. Additionally, I also perform Hybrid NKPC estimation using extensive monthly data, covering 2007 M06 until 2026 M03 period of time, in which two distinctions exist:
+  - Industrial Production Index (IPI) is used as proxy for Economic Output; and
+  - Estimations are distributed into three samples, namely full sample (2007 M06 - 2026 M03), Pre-Pandemic sample (2007 M06 - 2020 M02), and During-Post Pandemic      sample (2020 M03 - 2026 M03)
 
 Bibliography:
 - Gali, J., & Gertler, M. (1999). Inflation dynamics: A structural econometric analysis. _Journal of Monetary Economics_, 44(2), 195-222.
