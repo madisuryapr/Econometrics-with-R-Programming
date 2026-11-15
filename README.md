@@ -17,7 +17,7 @@ This repository covers following econometric estimations:
 - Cointegrating Regression (namely FM-OLS and Dynamic OLS)
 - Autoregressive Distributed Lag (ARDL) Model
 - Panel Data Regression Model (encompasses Common, Fixed, and Random Effect Models)
-- Dynamic Panel Data Model (namely Generalized Methods of Moments or GMM)
+- Dynamic Panel Data Model (including Difference and System Generalized Methods of Moments (GMM))
 
 Note:  
 All estimations within this repository are intended for portfolio only, hence cannot be used for formal research purpose. Please refer to the cited bibliography for further information regarding all incorporated models.
