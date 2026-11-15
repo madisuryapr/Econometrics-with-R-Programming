@@ -9,14 +9,14 @@ In this repository, I wanted to present various econometric model estimations us
 This repository covers following econometric estimations:
 - Linear Regression Model (including single and multiple independent variables)
 - Linear Regression Model with Long Time Series Dataset
-- Panel Data Regression Model (encompasses Common, Fixed, and Random Effect Models)
+- Unit Root Tests
+- Cointegration Tests
 - Vector Autoregression (VAR) Model
 - Structural VAR (SVAR) Model
 - Vector Error Correction Model (VECM) estimation
-- Unit Root Tests
-- Cointegration Tests
 - Cointegrating Regression (namely FM-OLS and Dynamic OLS)
 - Autoregressive Distributed Lag (ARDL) Model
+- Panel Data Regression Model (encompasses Common, Fixed, and Random Effect Models)
 - Dynamic Panel Data Model (namely Generalized Methods of Moments or GMM)
 
 Note:  
