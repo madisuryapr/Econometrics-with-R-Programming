@@ -43,7 +43,7 @@ Using monthly data that I aforementioned, therefore, the expansion of Hybrid NKP
 ```math
 \pi_t = \alpha + \beta_1^b \pi_{t-1} + \beta_2^b \pi_{t-2} + \beta_3^b \pi_{t-3} + \theta_1^f \mathbb{E_t}[\pi_{t+1}] + \theta_2^f \mathbb{E_t}[\pi_{t+2}] + \theta_3^f \mathbb{E_t}[\pi_{t+3}] + \gamma_1 R_t + \gamma_2 Y_t^{*} + \gamma_3 WTI_t + \gamma_4 EXR_t + \varepsilon_t
 ```
-where this equation reflects the impact of backward- and forward-looking inflations in which encapsulates three months period of time (equivalent to one quarter), and $Y_t^{*} is replaced by Industrial Production Index (IPI) gap as output gap proxy.
+where this equation reflects the impact of backward- and forward-looking inflations in which encapsulates three months period of time (equivalent to one quarter), and $Y_t^{*}$ is replaced by Industrial Production Index (IPI) gap as output gap proxy.
 
 Bibliography:
 - Gali, J., & Gertler, M. (1999). Inflation dynamics: A structural econometric analysis. _Journal of Monetary Economics_, 44(2), 195-222.
