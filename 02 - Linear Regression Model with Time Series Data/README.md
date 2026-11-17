@@ -39,6 +39,12 @@ The estimation will be executed by comparing both full sample estimation (2000 Q
   - Industrial Production Index (IPI) is used as proxy for Economic Output; and
   - Estimations are distributed into three samples, namely full sample (2007 M06 - 2026 M03), Pre-Pandemic sample (2007 M06 - 2020 M02), and During-Post Pandemic      sample (2020 M03 - 2026 M03)
 
+Using monthly data that I aforementioned, therefore, the expansion of Hybrid NKPC model can be written as:
+```math
+\pi_t = \alpha + \beta_1^b \pi_{t-1} + \beta_2^b \pi_{t-2} + \beta_3^b \pi_{t-3} + \theta_1^f \mathbb{E_t}[\pi_{t+1}] + \theta_2^f \mathbb{E_t}[\pi_{t+2}] + \theta_3^f \mathbb{E_t}[\pi_{t+3}] + \gamma_1 R_t + \gamma_2 Y_t^{*} + \gamma_3 WTI_t + \gamma_4 EXR_t + \varepsilon_t
+```
+where this equation reflects the impact of backward- and forward-looking inflations in which encapsulates three months period of time (equivalent to one quarter), and $Y_t^{*} is replaced by Industrial Production Index (IPI) gap as output gap proxy.
+
 Bibliography:
 - Gali, J., & Gertler, M. (1999). Inflation dynamics: A structural econometric analysis. _Journal of Monetary Economics_, 44(2), 195-222.
 - Horstein, A. (2008). Introduction to the New Keynesian Phillips Curve. _Economic Quarterly_, 94(4), 301-309.
