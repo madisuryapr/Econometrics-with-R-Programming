@@ -1,5 +1,8 @@
 ## Linear Regression with Time Series Dataset  
 
+> **Disclaimer:**
+> All estimation results and coding within this repository are not intended to be used as formal reference for research. This repository is created only for demonstration purpose of Linear regression estimation with Time series data, using R programming language. I recommend readers referring to bibliography for further details regarding the models used as an example.
+
 This repository main objective is to examine how to perform linear regression model using Time Series Dataset. I employ Indonesia's macroeconomic variables, 
 covering inflation,interest rate, nominal exchange rate, output gap, and others. The empirical implementation of estimation is based on 
 New Keynesian Phillips Curve (NKPC) function, following Horstein (2008) paper entitled "Introduction to the New Keynesian Phillips Curve". This theorem stems
