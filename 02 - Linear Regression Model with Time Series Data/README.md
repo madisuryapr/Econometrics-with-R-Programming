@@ -40,7 +40,7 @@ This project's model considers that Indonesia's inflation is influenced by two-q
 
 The estimation will be executed by comparing both full sample estimation (2000 Q3 until 2025 Q4) and pre-pandemic (2000 Q3 - 2019 Q4) to assess whether any difference exists between two different sets of data that reflects before and after COVID-19 Pandemic Eruption. Additionally, I also perform Hybrid NKPC estimation using extensive monthly data, covering 2007 M06 until 2026 M03 period of time, in which two distinctions exist:
   - Industrial Production Index (IPI) is used as proxy for Economic Output; and
-  - Estimations are distributed into three samples, namely full sample (2007 M06 - 2026 M03), Pre-Pandemic sample (2007 M06 - 2020 M02), and During-Post Pandemic      sample (2020 M03 - 2026 M03)
+  - Estimations are distributed into three samples, namely full sample (2007 M04 - 2026 M03), Pre-Pandemic sample (2007 M04 - 2020 M02), and During-Post Pandemic      sample (2020 M03 - 2026 M03)
 
 Using monthly data that I aforementioned, therefore, the expansion of Hybrid NKPC model can be written as:
 ```math
