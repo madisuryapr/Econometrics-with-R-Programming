@@ -19,7 +19,7 @@ hnkpc <- read_excel("Clean Data/Cleansed Quarterly Data.xlsx", sheet = "Sheet1")
 # View data structure
 str(hnkpc)
 
-# Convert the data and quarterly_date format into appropriate one, and rename output_gap var.
+# Convert the date and quarterly_date format into appropriate format, and rename output_gap var.
 hnkpc <- hnkpc %>%
   mutate(
     date = as.Date(date),
