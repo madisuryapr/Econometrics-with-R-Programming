@@ -140,7 +140,7 @@ dpse_hnkpc_estimation <- lm(
   data = dpse_pandemic_hnkpc,
   na.action = na.omit
 )
-summary(pre_hnkpc_estimation) # preview the during-post pandemic result
+summary(dpse_hnkpc_estimation) # preview the during-post pandemic result
 
 # Create comparison table using modelsummary() function
 model_performance <- list(
